@@ -32,7 +32,7 @@ p {
 
 .top-bannar {
     background-image: url(./assets/asset\ 28.png);
-    background-color:#e74694;
+    background-color: #e74694;
 
     background-size: 200px 300px;
 
@@ -62,21 +62,22 @@ p {
     height: 50px;
 }
 
-.pages>ul{
-    display: flex;    
+.pages>ul {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-li{
+li {
     padding: 1.2rem;
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-.signin{
+.signin {
     border: 2px solid #41AEF2;
     border-radius: 0.5rem;
     padding: 10px 15px 10px 15px;
@@ -85,10 +86,10 @@ a{
     height: 4rem; */
 }
 
-.signup{
+.signup {
     color: #ffff;
     margin: 0.5rem;
-    background-color:#41AEF2;
+    background-color: #41AEF2;
     border: 2px solid #41AEF2;
     border-radius: 0.5rem;
     padding: 10px 15px 10px 15px;
@@ -97,19 +98,19 @@ a{
     /* height: 4rem; */
 }
 
-.head{
+.head {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 5rem;
 }
 
-.header-description{
+.header-description {
     line-height: 30px;
     padding: 5rem;
 }
 
-.head-btn{
+.head-btn {
     background-color: #41AEF2;
     color: #ffff;
     border: none;
@@ -121,41 +122,47 @@ a{
     font-weight: bold;
 }
 
-button:hover{
+button:hover {
     background-color: #4095ca;
 }
-.head-image>img{
+
+.head-image>img {
     height: 30rem;
 }
-.top-companies{
+
+.top-companies {
     display: flex;
     flex-direction: column;
     padding-left: 8rem;
     padding-right: 8rem;
     gap: 1rem;
 }
-.companies-description{
+
+.companies-description {
     text-align: center;
 }
 
-.companies{
+.companies {
     /* margin: 8rem; */
     display: flex;
     justify-content: space-around;
 }
 
-.companies>img{
+.companies>img {
     width: 100px;
     height: 70px;
     object-fit: contain;
 }
-.features{
-   margin-top: 10rem;
+
+.features {
+    margin-top: 10rem;
 }
-.feature-description{
+
+.feature-description {
     text-align: center;
 }
-.feature-btn{
+
+.feature-btn {
     background-color: #ffff;
     border: 1px solid #41AEF2;
     border-radius: 0.5rem;
@@ -163,7 +170,7 @@ button:hover{
 
 }
 
-.more-features{
+.more-features {
     background-image: url(assets/asset\ 29.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -173,26 +180,48 @@ button:hover{
     justify-content: space-around;
     align-items: center;
     line-height: 40px;
-    margin:2rem ;
+    margin: 2rem;
     padding-left: 8rem;
     padding-right: 8rem;
     gap: 2rem;
 }
 
-.feature{
+.feature {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.feature>img{
+
+.feature>img {
     width: 3rem;
 }
-.more-feature-btn{
+
+.more-feature-btn {
     background-color: #ffff;
     border: 1px solid #41AEF2;
     border-radius: 0.5rem;
     padding: 10px 25px 10px 25px;
 
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem;
+}
+
+.review-image>img {
+    width: 30rem;
+}
+
+.review-description {
+    background-image: url(assets/asset\ 30.svg);
+    background-repeat: no-repeat;
+    line-height: 2.5rem;
+    width: 40%;
+    text-align: left;
 }
