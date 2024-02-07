@@ -68,8 +68,8 @@ p {
     justify-content: space-between;
 }
 
-li {
-    padding: 1.2rem;
+.pages>ul>li {
+    padding: 0.8rem;
     list-style-type: none;
 }
 
@@ -165,6 +165,7 @@ button:hover {
 
 .feature-description {
     text-align: center;
+    line-height: 4rem;
 }
 
 .feature-btn {
@@ -229,4 +230,77 @@ button:hover {
     line-height: 2.5rem;
     width: 40%;
     text-align: left;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    margin: 1rem;
+}
+
+.card>p{
+    font-weight:900;
+    padding: 1rem;
+    color:white;
+    position: absolute;
+    bottom: -3750px;
+}
+
+.panel{
+    background-color: #183b56;
+    display: flex;
+    padding: 4rem 16rem 4rem 16rem;
+
+}
+.panel-description{
+    color: white;
+    
+}
+
+.panel-description>p{
+    color: white;
+}
+
+.points{
+    display: flex;
+    margin: 2rem;
+    gap: 4rem;
+}
+.panel-btn{
+    display: flex;
+    align-items: baseline;
+}
+.btn1{
+    background-color: #41AEF2;
+    border: 1px solid #41AEF2;
+    border-radius: 0.5rem;
+    padding: 15px 25px 15px 25px;
+    
+}
+.btn1>p{
+    color: white;
+}
+
+.btn2{
+    background-color: #183b56;
+    border-radius: 0.5rem;
+    padding: 15px 25px 15px 25px;
+    border-color:white;
+}
+.btn2>p{
+    color: white;
+}
+
+.plans{
+    text-align: center;
+    padding-top: 10rem;
+    line-height: 3rem;
+    padding-bottom: 5rem;
+}
+
+.footer{
+    background-color: #ebf2fa;
 }
