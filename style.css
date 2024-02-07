@@ -75,7 +75,7 @@ p {
 
 a {
     text-decoration: none;
-    color:#577592 ;
+    color: #577592;
 }
 
 .signin {
@@ -99,7 +99,7 @@ a {
     /* height: 4rem; */
 }
 
-.signup:hover{
+.signup:hover {
     background-color: #4095ca;
 }
 
@@ -232,75 +232,124 @@ button:hover {
     text-align: left;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: center;
 
 }
-.card{
+
+.card {
     margin: 1rem;
 }
 
-.card>p{
-    font-weight:900;
+.card>p {
+    font-weight: 900;
     padding: 1rem;
-    color:white;
+    color: white;
     position: absolute;
     bottom: -3750px;
 }
 
-.panel{
+.panel {
     background-color: #183b56;
     display: flex;
     padding: 4rem 16rem 4rem 16rem;
 
 }
-.panel-description{
+
+.panel-description {
     color: white;
-    
+
 }
 
-.panel-description>p{
+.panel-description>p {
     color: white;
 }
 
-.points{
+.points {
     display: flex;
     margin: 2rem;
     gap: 4rem;
 }
-.panel-btn{
+
+.panel-btn {
     display: flex;
     align-items: baseline;
 }
-.btn1{
+
+.btn1 {
     background-color: #41AEF2;
     border: 1px solid #41AEF2;
     border-radius: 0.5rem;
     padding: 15px 25px 15px 25px;
-    
+
 }
-.btn1>p{
+
+.btn1>p {
     color: white;
 }
 
-.btn2{
+.btn2 {
     background-color: #183b56;
     border-radius: 0.5rem;
     padding: 15px 25px 15px 25px;
-    border-color:white;
+    border-color: white;
 }
-.btn2>p{
+
+.btn2>p {
     color: white;
 }
 
-.plans{
+.plans {
     text-align: center;
     padding-top: 10rem;
     line-height: 3rem;
     padding-bottom: 5rem;
 }
 
-.footer{
+.footer {
     background-color: #ebf2fa;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+.product,
+.card-sorting,
+.resource {
+    line-height: 3rem;
+}
+
+.product>ul>li {
+    list-style-type: none;
+}
+
+.card-sorting>ul>li {
+    list-style-type: none;
+}
+
+.resource>ul>li {
+    list-style-type: none;
+}
+a:hover{
+    color: #41AEF2;
+}
+.sub-footer{
+    background-color: #b9cde4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+
+.detail{
+    display: flex;
+    gap: 20px;
+    font-size: small;
+}
+
+.social-media-accounts{
+    display: flex;
+    gap: 20px;
+    
 }
