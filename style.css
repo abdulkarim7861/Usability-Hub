@@ -406,7 +406,7 @@ a:hover {
 
 /* MEDIA QUERY FOR SMALL MOBILE  */
 
-@media only screen and (max-width: 320px) {
+@media  screen and (max-width: 500px) {
     .top-bannar {
         background-image: url(./assets/asset\ 28.png);
         background-color: #e74694;
@@ -428,7 +428,6 @@ a:hover {
     
     .navbar {
         display: flex;
-        justify-content: space-around;
         align-items: center;
     }
     
@@ -443,7 +442,9 @@ a:hover {
     .head {
         display: flex;
         flex-direction: column-reverse;
+        /* align-content: flex-end; */
         flex-wrap: wrap;
+        padding: 2rem;
         
     }
 
@@ -484,7 +485,6 @@ a:hover {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 40px;
         margin-top: -90px;
     }
     
@@ -503,7 +503,7 @@ a:hover {
     .companies {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        align-items: center;
     }
     
     .companies>img {
@@ -653,7 +653,7 @@ a:hover {
         padding: 1rem;
         color: white;
         position: absolute;
-        top: 300px;
+        top: 235px;
     }
     .card2 {
         margin: 1rem;
@@ -669,7 +669,7 @@ a:hover {
         padding: 1rem;
         color: white;
         position: absolute;
-        bottom: 920px;
+        bottom: 990px;
     }
     .card3 {
         margin: 1rem;
